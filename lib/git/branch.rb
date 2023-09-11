@@ -94,7 +94,7 @@ module Git
     private
 
     def check_if_create
-      @base.lib.branch_new(@name) rescue nil
+      @base.lib.branch_new(@name)# rescue nil
     end
 
     def determine_current
